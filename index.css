@@ -4,14 +4,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8.5rem;
+  height: 5rem;
   width: 100%;
   background-color: #fffbe5;
-  z-index: 5; }
+  z-index: -9999; }
   .navbar ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1rem;
     text-decoration: none;
     width: 60%;
     height: 100%; }
@@ -36,52 +37,52 @@
         text-decoration: none; }
     .navbar ul .navbar__ul__li-health::before {
       content: '';
-      width: 0;
-      height: 3px;
+      width: 100%;
+      height: 0;
       bottom: 0;
-      left: 0;
-      background: #ff7f66;
+      background-image: linear-gradient(#d1d1d1, linen, gray);
       position: absolute;
+      z-index: -1;
       transition: all 400ms;
       -webkit-transition: all 400ms; }
     .navbar ul .navbar__ul__li-health:hover::before {
-      width: 100%; }
+      height: 100%; }
     .navbar ul .navbar__ul__li-energy::before {
       content: '';
-      width: 0;
-      height: 3px;
+      width: 100%;
+      height: 0;
       bottom: 0;
-      left: 0;
-      background: #6698ff;
+      background-image: linear-gradient(#d1d1d1, linen, gray);
       position: absolute;
+      z-index: -1;
       transition: all 400ms;
       -webkit-transition: all 400ms; }
     .navbar ul .navbar__ul__li-energy:hover::before {
-      width: 100%; }
+      height: 100%; }
     .navbar ul .navbar__ul__li-garden::before {
       content: '';
-      width: 0;
-      height: 3px;
+      width: 100%;
+      height: 0;
       bottom: 0;
-      left: 0;
-      background: #6cd8a2;
+      background-image: linear-gradient(#d1d1d1, linen, gray);
       position: absolute;
+      z-index: -1;
       transition: all 400ms;
       -webkit-transition: all 400ms; }
     .navbar ul .navbar__ul__li-garden:hover::before {
-      width: 100%; }
+      height: 100%; }
     .navbar ul .navbar__ul__li-food::before {
       content: '';
-      width: 0;
-      height: 3px;
+      width: 100%;
+      height: 0;
       bottom: 0;
-      left: 0;
-      background: #ffcd66;
+      background-image: linear-gradient(#d1d1d1, linen, gray);
       position: absolute;
+      z-index: -1;
       transition: all 400ms;
       -webkit-transition: all 400ms; }
     .navbar ul .navbar__ul__li-food:hover::before {
-      width: 100%; }
+      height: 100%; }
 
 .fixed {
   position: fixed;
